@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using TrabalhoFinal.List;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+
+        GraphList graphList2 = GraphList.asciiMazeToGraphList("graph.txt");
+        
+
+    }
+}
